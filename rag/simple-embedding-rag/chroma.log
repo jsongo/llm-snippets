@@ -1,0 +1,35 @@
+[32mINFO[0m:     [26-04-2024 23:55:42] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [26-04-2024 23:55:42] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component System
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component SqliteDB
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component Posthog
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-04-2024 23:55:42] Starting component SegmentAPI
+[32mINFO[0m:     [26-04-2024 23:55:42] Started server process [[36m91069[0m]
+[32mINFO[0m:     [26-04-2024 23:55:42] Waiting for application startup.
+[32mINFO[0m:     [26-04-2024 23:55:42] Application startup complete.
+[32mINFO[0m:     [26-04-2024 23:55:42] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [26-04-2024 23:55:46] ::1:49276 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-04-2024 23:55:46] ::1:49276 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-04-2024 23:55:46] ::1:49277 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [26-04-2024 23:55:46] ::1:49277 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [26-04-2024 23:55:46] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [26-04-2024 23:55:46] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[32mINFO[0m:     [26-04-2024 23:55:46] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[32mINFO[0m:     [26-04-2024 23:55:47] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[32mINFO[0m:     [26-04-2024 23:55:47] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[32mINFO[0m:     [26-04-2024 23:55:47] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[32mINFO[0m:     [26-04-2024 23:55:47] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[33mWARNING[0m:  [26-04-2024 23:55:55] Insert of existing embedding ID: 0
+[33mWARNING[0m:  [26-04-2024 23:55:55] Add of existing embedding ID: 0
+[32mINFO[0m:     [26-04-2024 23:55:55] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[33mWARNING[0m:  [26-04-2024 23:55:57] Insert of existing embedding ID: 1
+[33mWARNING[0m:  [26-04-2024 23:55:57] Add of existing embedding ID: 1
+[32mINFO[0m:     [26-04-2024 23:55:57] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[33mWARNING[0m:  [26-04-2024 23:56:00] Insert of existing embedding ID: 2
+[33mWARNING[0m:  [26-04-2024 23:56:00] Add of existing embedding ID: 2
+[32mINFO[0m:     [26-04-2024 23:56:00] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/add HTTP/1.1" 201
+[32mINFO[0m:     [26-04-2024 23:56:00] ::1:49277 - "POST /api/v1/collections/0e322bdc-fd3c-4ff0-a4d0-9b663c976845/query HTTP/1.1" 200

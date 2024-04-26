@@ -1,0 +1,7 @@
+unstructured
+unstructured[md]
+langchain
+langchain-community
+chromadb
+langchain-text-splitters
+scikit-learn
